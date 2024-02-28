@@ -1,0 +1,1 @@
+hadoop jar '/home/hdoop/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar' -file /home/hdoop/138_bda/mappertemp.py -mapper /home/hdoop/138_bda/mappertemp.py -file /home/hdoop/138_bda/reducertemp.py -reducer /home/hdoop/138_bda/reducertemp.py -input /138/temp.txt -output /138_bda
